@@ -1,0 +1,50 @@
+use_case_id,title,threat_category
+UC-001,Brute Force Login Attempt Detection,insider
+UC-002,Suspicious Lateral Movement,privilege
+UC-003,Unauthorized Database Access,data
+UC-004,Cloud IAM Role Misuse,malware
+UC-005,Unexpected Privilege Escalation,compliance
+UC-006,Data Exfiltration via VPN,external
+UC-007,Malware Beaconing to C2,insider
+UC-008,Suspicious PowerShell Execution,privilege
+UC-009,Unusual Service Creation,data
+UC-010,Failed MFA Attempts Monitoring,malware
+UC-011,DNS Tunnel Activity Detection,compliance
+UC-012,Sensitive File Access by Non-Privileged User,external
+UC-013,Unauthorized API Token Usage,insider
+UC-014,Suspicious Network Scanning Behavior,privilege
+UC-015,Endpoint Ransomware Indicators,data
+UC-016,Anomalous Email Forwarding Rule,malware
+UC-017,Compromised Account Detection,compliance
+UC-018,Shadow IT Application Usage,external
+UC-019,Unapproved Cloud Storage Upload,insider
+UC-020,Abnormal SQL Query Behavior,privilege
+UC-021,Login from High-Risk Country,data
+UC-022,Rare Process Execution,malware
+UC-023,Suspicious SMB Enumeration,compliance
+UC-024,Phishing Email Click Event,external
+UC-025,Abnormal Kubernetes Pod Activity,insider
+UC-026,Cloud Root Account Login,privilege
+UC-027,VPN Login from Multiple Locations,data
+UC-028,Multiple Password Reset Attempts,malware
+UC-029,Unusual Group Policy Change,compliance
+UC-030,Suspicious Account Lockout Pattern,external
+UC-031,Potential Insider Data Download Spike,insider
+UC-032,Unauthorized SSH Key Deployment,privilege
+UC-033,Tor Exit Node Traffic Detection,data
+UC-034,Suspicious Active Directory Replication Request,malware
+UC-035,Anomalous SaaS Login,compliance
+UC-036,Cloud Storage Bucket Misconfiguration,external
+UC-037,Zero-Day Exploit Indicators,insider
+UC-038,Network Traffic to Blocklisted IP,privilege
+UC-039,Browser Exploit Attempt,data
+UC-040,High-Volume Email Sending Behavior,malware
+UC-041,Crypto Mining on Endpoint,compliance
+UC-042,Suspicious Container Registry Access,external
+UC-043,Unauthorized Firewall Change,insider
+UC-044,Sudden Increase in 5xx API Errors,privilege
+UC-045,Unusual DNS Query Patterns,data
+UC-046,Suspicious File Integrity Change,malware
+UC-047,Unexpected Backup System Access,compliance
+UC-048,Mass Privilege Revocation Failure,external
+UC-049,High-Risk File Download from Internet,insider

@@ -1,0 +1,36 @@
+
+# Core application
+pydantic==1.10.12
+pandas==2.2.0
+loguru==0.7.2
+tqdm==4.66.1
+jinja2==3.1.2
+atlassian-python-api==3.41.9
+langchain==0.1.0
+requests==2.31.0
+python-dotenv==1.0.1
+ollama
+
+# Dashboard
+streamlit>=1.28.0
+plotly>=5.17.0
+plotly-express>=0.4.1
+openpyxl
+
+# Database (SQLite is built-in, these are for enhanced features)
+sqlite3  # Built-in
+# For potential PostgreSQL migration:
+# psycopg2-binary>=2.9.7
+# sqlalchemy>=2.0.0
+
+# Data processing
+numpy>=1.24.0
+scipy>=1.11.0
+
+# Optional for advanced features
+cryptography>=41.0.0  # For secure storage
+python-jose>=3.3.0  # JWT tokens for auth
+passlib>=1.7.4  # Password hashing
+
+
+
